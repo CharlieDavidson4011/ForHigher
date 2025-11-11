@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import PublicLayout from './components/Layout/PublicLayout';
-import LandingPage from './pages/Landing/LandingPage';
-import ApplicantSignup from './pages/SignupApplicant/ApplicantSignup';
-import CompanySignup from './pages/SignupCompany/CompanySignup';
+import PublicLayout from './Components/Layout/Public Layout';
+import LandingPage from './Pages/Landing Page/Landing Page';
+import ApplicantSignup from './Pages/Applicant Signup/Applicant Signup';
+import CompanySignup from './Pages/Company Signup/Company Signup';
 
 function App() {
   return (

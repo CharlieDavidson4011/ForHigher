@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import Button from '../../components/Button';
-import './LandingPage.css';
+import Button from '../../Components/Button/Button';
+import './Landing Page.css';
 
 const LandingPage = () => {
     const navigate = useNavigate();
@@ -12,7 +12,7 @@ const LandingPage = () => {
     return (
         <div className="landing-page">
             <header className="hero">
-                <h1>Find Your Next Job or Hire Top Talent</h1>
+                <h1>Welcome to For Higher</h1>
                 <p>Join our network of applicants & companies today.</p>
                 <div className="cta-buttons">
                     <Button variant="primary" onClick={goApplicant}>Sign up as Applicant</Button>
