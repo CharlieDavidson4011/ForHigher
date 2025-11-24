@@ -1,13 +1,8 @@
 import React from 'react';
-import './Applicant Signup.css';
+import ApplicantForm from './ApplicantForm';
 
 const ApplicantSignup = () => {
-    return (
-        <div className="applicant-signup">
-            <h1>Applicant Signup</h1>
-            <p>Sign up as an applicant here.</p>
-        </div>
-    );
+    return <ApplicantForm />;
 };
 
 export default ApplicantSignup;

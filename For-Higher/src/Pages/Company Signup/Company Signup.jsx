@@ -1,13 +1,8 @@
 import React from 'react';
-import './Company Signup.css';
+import CompanyForm from './CompanyForm';
 
 const CompanySignup = () => {
-    return (
-        <div className="company-signup">
-            <h1>Company Signup</h1>
-            <p>Sign up as a company here.</p>
-        </div>
-    );
+    return <CompanyForm />;
 };
 
 export default CompanySignup;
